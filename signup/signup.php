@@ -47,22 +47,22 @@
         </button></a>
         <h3>Create Your Account</h3>
 
-        <form class="form" onsubmit="return validateForm()">
+        <form class="form" action="signup.dbh.php" method="post" onsubmit="return validateForm()">
             <div class="two-fields">
-                <input type="text" class="input" id="firstName" placeholder="First name" >
-                <input type="text" class="input" id="lastName" placeholder="Last name">
+                <input type="text" class="input" id="firstName" name="firstName" placeholder="First name" >
+                <input type="text" class="input" id="lastName" name ="lastName" placeholder="Last name">
                 </div>
                 <div class="two-fields">
-                <input type="tel" class="input" id="email" placeholder="Email">
-                <input type="text" class="input" id="address" placeholder="Address">
+                <input type="tel" class="input" id="email" name="email" placeholder="Email">
+                <input type="text" class="input" id="address" name="address" placeholder="Address">
                 </div>
                 <div class="two-fields">
-                <input type="tel" class="input" id="telephoneNo" placeholder="Telephone No">
-                <input type="text" class="input" id="username" placeholder="Username">
+                <input type="tel" class="input" id="telephoneNo" name="telephoneNo" placeholder="Telephone No">
+                <input type="text" class="input" id="username" name="username" placeholder="Username">
                 </div>
                 <div class="two-fields">
-                <input type="password" class="input" id="password" placeholder="Password">
-                <input type="password" class="input" id="re-password" placeholder="Re-Enter Password">
+                <input type="password" class="input" id="password" name="password" placeholder="Password">
+                <input type="password" class="input" id="re-password" name="re-password" placeholder="Re-Enter Password">
                 <text id="err"></text>
             </div>
 
