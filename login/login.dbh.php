@@ -37,6 +37,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
     } else {
         echo "No user found with this email.";
+        header("Location: login.php");
     }
 
     // Close the database connection
