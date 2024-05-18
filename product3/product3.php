@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Product List</title>
-    <link rel="stylesheet" href="product1.css">
+    <link rel="stylesheet" href="../product1/product1.css">
 </head>
 <body>
 /*HEADER PART START */
@@ -12,7 +12,7 @@
         
         <div class="topnav-left">
             <ul class="menu-items">
-              <li><a href="#"><img src="logo.png" width="20px" height="20px"></a></li>
+                <li><a href="#"><img src="logo.png" width="20px" height="20px"></a></li>
                 <li><a href="nav.html">Home</a></li>
                 <li><a href="#">Products</a>
                     <ul class="sub-menu">
@@ -49,11 +49,11 @@
 
 
 /*BODY PART START */
-    <h1 class="product-tittle">BATHWARE COLLECTION</h1>
+    <h1 class="product-tittle">ACCESSORIES COLLECTION</h1>
     <div class="product-list">
         <?php
         // Include the file to fetch product data
-        $product = include 'product1.dbh.php';
+        $product = include 'product3.dbh.php';
         
         // Display each product
         /*foreach ($product as $product) {
