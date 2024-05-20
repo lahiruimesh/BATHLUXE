@@ -2,7 +2,7 @@
 include '../dbconnection.php';
 
 // SQL query to fetch productCode, imageName, and imagePath
-$sql = "SELECT productCode, imageName, imagePath, productName,productType FROM product WHERE productType = 'ACC'";
+$sql = "SELECT productCode, imageName, imagePath, productName,productType FROM product WHERE productType = 'AAC'";
 $result = $conn->query($sql);
 
 // Create an array to hold the product data

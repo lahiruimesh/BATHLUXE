@@ -24,7 +24,10 @@
                     <button class="btn" onclick="decreaseQuantity()">-</button>
                     <input type="text" class="quantity-input" value="1" id="quantity">
                     <button class="btn" onclick="increaseQuantity()">+</button></p>
-                        <button class="btn1"><?php  echo "<a href='../cart/cart.php?productCode=" . htmlspecialchars($product['productCode']) . "'>";?>ADD TO CART</button>
+                    <form method="post" action="../cart/cart.dbh.php">
+            <input type="hidden" name="productCode" value="<?php echo htmlspecialchars($product['productCode']); ?>">
+            <button type="submit" class="btn1">ADD TO CART</button>
+        </form>
                         <button class="btn2">BUY NOW</button>
                   
     </div></div>

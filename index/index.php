@@ -20,9 +20,9 @@
                 <li><a href="nav.html">Home</a></li>
                 <li><a href="#">Products</a>
                     <ul class="sub-menu">
-                        <li><a href="../Product collection/Tile/Tile collecrion.html">Tile collection</a></li>
-                        <li><a href="../Product collection/Bathware/Bathware.html">Bathware collection</a></li>
-                        <li><a href="../Product collection/Accessories/Accessories.html">Accesseries collection</a></li>
+                        <li><a href="../product2/product2.php">Tile collection</a></li>
+                        <li><a href="../product1/product1.php">Bathware collection</a></li>
+                        <li><a href="../product3/product3.php">Accesseries collection</a></li>
                     </ul>
                 </li>  
                 <li><a href="">About Us</a></li> 
@@ -42,8 +42,8 @@
                         </div>
                     </div>
                 </li>
-                <li style="margin-top: 12px;"><a href="#search">Login</a></li>
-                <li style="margin-top: 12px;"><a href="#about">Signup</a></li>  
+                <li style="margin-top: 12px;"><a href="../login/login.php">Login</a></li>
+                <li style="margin-top: 12px;"><a href="../signup/signup.php">Signup</a></li>  
             </ul>
         </div>        
     </header>
@@ -113,7 +113,7 @@
                 <img src="img2_3.jpeg">
             </div>
 
-            <a href="../Product Collection/Tile/Tile collecrion.html"> View Collection </a>
+            <a href="../product2/product2.php"> View Collection </a>
 
         </div>
     </div>
@@ -135,7 +135,7 @@
                     <img src="img3_3.jpg">
                 </div>
             <br>
-            <a href="../Product Collection/Bathware/Bathware.html"> View Collection </a>
+            <a href="../product1/product1.php"> View Collection </a>
         </div>
         <img src="img3.jpg">
     </div>
@@ -157,7 +157,7 @@
                 <img src="img4_3.jpeg">
             </div>
 
-            <a href="../Product Collection/Accessories/Accessories.html">View Collection</a>
+            <a href="../product3/product3.php">View Collection</a>
         </div>
     </div>
 
