@@ -29,7 +29,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $_SESSION['userId'] = $row['userId'];
 
             // Redirect to a protected page
-            header("Location: ../index/index.php");
+            header("Location: ../home/home.php");
             exit; // Terminate script execution after the redirect
         } else {
             echo "Invalid password.";
