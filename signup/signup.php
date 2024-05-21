@@ -53,11 +53,11 @@
                 <input type="text" class="input" id="lastName" name ="lastName" placeholder="Last name">
                 </div>
                 <div class="two-fields">
-                <input type="tel" class="input" id="email" name="email" placeholder="Email">
+                <input type="text" class="input" id="email" name="email" placeholder="Email">
                 <input type="text" class="input" id="address" name="address" placeholder="Address">
                 </div>
                 <div class="two-fields">
-                <input type="tel" class="input" id="telephoneNo" name="telephoneNo" placeholder="Telephone No">
+                <input type="text" class="input" id="telephoneNo" name="telephoneNo" placeholder="Telephone No">
                 <input type="text" class="input" id="username" name="username" placeholder="Username">
                 </div>
                 <div class="two-fields">

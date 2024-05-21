@@ -94,7 +94,8 @@ if ($result === false) {
         <th>Product Name</th>
         <th>Product Code</th>
         <th>Price</th>
-        <th>Quantity</th>
+        <th>Price</th>
+        
     </tr>
     <?php
     while ($row = $result->fetch_assoc()) {
@@ -115,13 +116,22 @@ if ($result === false) {
         echo "<td>" . htmlspecialchars($row['productName']) . "</td>";
         echo "<td>" . htmlspecialchars($row['productCode']) . "</td>";
         echo "<td>$" . htmlspecialchars($row['productPrice']) . "</td>";
+        echo '<td>
+                <form action="buynow.php" method="POST" style="display:inline;">
+                    <input type="hidden" name="productCode" value="' . htmlspecialchars($row['productCode']) . '">
+                    <input type="hidden" name="productName" value="'. htmlspecialchars($row['productName']). '">
+                    <input type="hidden" name="productPrice" value="'. htmlspecialchars($row['productPrice']). '">
+                    Quantity:<input type="text" name="quantity">
+                    <button type="submit">Buy Now</button>
+                </form>
+              </td>';
         echo "</tr>";
     }
     ?>
 </table>
 <script>
     document.getElementById("logout").addEventListener("click" function(){
-        window.location.href = "../index/index.php"
+        window.location.href = "../index/index.php";
     });
 </script>
 </body>
