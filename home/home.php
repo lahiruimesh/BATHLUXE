@@ -13,19 +13,19 @@
 <body>
     <header class="header-main">
         <nav>
-            <a  href="../Home/nav.html" class="logo">
+            <a  href="../home/home.php" class="logo">
                 <img src="logo.png" alt="websiteLogo" width="60px" height="50px">
             </a>
             <ul>
-                <li><a href="Home.html">HOME</a></li>
+                <li><a href="../home/home.php">HOME</a></li>
                 <li><a href="#">PRODUCTS</a>
                     <ul>
-                        <li><a href="../product2/product2.php">Tile collection</a></li>
-                        <li><a href="../product1/product1.php">Bathware collection</a></li>
-                        <li><a href="../product3/product3.php">Accesseries collection</a></li>
+                        <li><a href="../Product2/product2.php">Tile collection</a></li>
+                        <li><a href="../Product1/product1.php">Bathware collection</a></li>
+                        <li><a href="../Product3/product3.php">Accesseries collection</a></li>
                     </ul>
                 </li>
-                <li><a href="../Home/nav.html">ABOUT US</a></li>
+                <li><a href="../home/home.php">ABOUT US</a></li>
                 
             </ul>
         </nav>

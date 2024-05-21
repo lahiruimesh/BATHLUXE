@@ -13,15 +13,15 @@
         <div class="topnav-left">
             <ul class="menu-items">
               <li><a href="#"><img src="logo.png" width="20px" height="20px"></a></li>
-                <li><a href="nav.html">Home</a></li>
+                <li><a href="../home/home.php">Home</a></li>
                 <li><a href="#">Products</a>
                     <ul class="sub-menu">
-                        <li><a href="../Product collection/Tile/Tile collecrion.html">Tile collection</a></li>
-                        <li><a href="../Product collection/Bathware/Bathware.html">Bathware collection</a></li>
-                        <li><a href="../Product collection/Accessories/Accessories.html">Accesseries collection</a></li>
+                        <li><a href="../product2/product2.php">Tile collection</a></li>
+                        <li><a href="../product1/product1.php">Bathware collection</a></li>
+                        <li><a href="../product3/product3.php">Accesseries collection</a></li>
                     </ul>
                 </li>  
-                <li><a href="">About Us</a></li> 
+                <li><a href="../home/home.php">About Us</a></li> 
             </ul>       
         </div>  
         <div class="topnav-right">
