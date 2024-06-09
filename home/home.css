@@ -18,9 +18,7 @@
   }
   
   .header-main .logo {
-    height: 50px;
-    width: fit-content;
-    align-self: center;
+    width: 180px;
     cursor: pointer;
   }
   

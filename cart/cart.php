@@ -51,7 +51,7 @@ if ($result === false) {
             </a>
             <ul>
                 <li><a href="../home/home.php">HOME</a></li>
-                <li><a href="#">PRODUCTS</a>
+                <li><a href="#">PRODUCTs</a>
                     <ul>
                         <li><a href="../Product2/product2.php">Tile collection</a></li>
                         <li><a href="../Product1/product1.php">Bathware collection</a></li>
@@ -86,9 +86,9 @@ if ($result === false) {
 
 <!--  Cart Start  -->
 
+<br><br><br><br><br><br>
 
-
-<table class="table" border="1">
+<table class="table">
     <tr>
         <th>Product Image</th>
         <th>Product Name</th>

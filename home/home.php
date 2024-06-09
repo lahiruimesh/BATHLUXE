@@ -14,7 +14,7 @@
     <header class="header-main">
         <nav>
             <a  href="../home/home.php" class="logo">
-                <img src="logo.png" alt="websiteLogo" width="60px" height="50px">
+                <img src="logo.png" alt="websiteLogo">
             </a>
             <ul>
                 <li><a href="../home/home.php">HOME</a></li>

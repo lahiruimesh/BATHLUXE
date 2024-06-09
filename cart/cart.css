@@ -1,4 +1,9 @@
-
+.table{
+  position: absolute;
+  border:1px solid black;
+  text-align: center;
+  padding:10px;
+}
 
 .header-main {
   width: 100%;

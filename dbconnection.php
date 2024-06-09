@@ -7,9 +7,9 @@ error_reporting(E_ALL);
 
 //Database connection
 $servername = "localhost";
-$username = "BATHLUXE";
-$password = "bW12345*";
-$dbname = "BATHLUXE";
+$username = "root";
+$password = "";
+$dbname = "bathluxe";
 
 // Create connection to the database
     $conn = new mysqli ($servername, $username, $password, $dbname);
